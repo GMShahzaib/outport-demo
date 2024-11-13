@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, resp) => {
 
-    resp.status(200).send({ message: "success", status: 200 })
+    resp.status(200).send({ message: "success test", status: 200 })
 
 })
 
