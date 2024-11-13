@@ -8,9 +8,9 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get("/", (req, resp) => {
+app.get("/test", (req, resp) => {
 
-    resp.status(200).send({ message: "success test", status: 200 })
+    resp.status(200).send({ message: "success", status: 200 })
 
 })
 
