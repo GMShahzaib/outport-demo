@@ -1,0 +1,20 @@
+{
+  "name": "outport-explain",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "outport": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
