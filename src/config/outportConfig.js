@@ -4,7 +4,7 @@ const outport = new Outport({
     title: 'User Management APIs',
     version: '1.0.0',
     servers: [
-        'https://bugstuck.com/docs',
+        'https://bugstuck.com',
         'https://outport-demo-production.up.railway.app',
         'http://localhost:8080',
         'https://api.example.com/v1'
