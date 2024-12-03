@@ -12,7 +12,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.1",
-    "outport": "^1.1.14"
+    "outport": "^1.1.15"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
